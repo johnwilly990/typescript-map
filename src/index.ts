@@ -5,4 +5,7 @@ import { Map } from "./classes/Map";
 
 const user = new User();
 const company = new Company();
-new Map("map");
+const map = new Map("map");
+
+map.addMarker(user);
+map.addMarker(company);
